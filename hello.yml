@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+  - name: print directly message
+    debug:
+     msg:
+     - "Hello world"
+     - "Welcome to ansible"
+     - "Welcome to git"
